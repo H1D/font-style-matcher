@@ -167,7 +167,7 @@
       return;
 
     var url = 'https://fonts.googleapis.com/css?family=' + webfontName.value.trim() +
-        '100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese';
+        ':100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese';
 
     var link = document.createElement('link');
     link.rel = 'stylesheet';
